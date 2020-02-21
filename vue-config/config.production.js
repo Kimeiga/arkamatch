@@ -16,6 +16,7 @@ module.exports = {
       /* See https://github.com/chrisvfritz/prerender-spa-plugin for more details */
       new PrerenderSPAPlugin({
         // Required - The path to the webpack-outputted app to prerender.
+        // eslint-disable-next-line no-undef
         staticDir: path.join(__rootDirname),
         // Required - Routes to prerender.
         routes: prerenderedRoutesList
